@@ -1,5 +1,5 @@
 # AWS
-```cd``` - changes director
+```cd``` - changes directory
 
 ```ls``` - lists the content of the current directory
 
