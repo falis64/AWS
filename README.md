@@ -15,7 +15,11 @@
 
 ```mkdir``` - creates new directory
 
-```mkdir`` 'directory' - creates a new directory with a specified name
+```mkdir 'directory'``` - creates a new directory with a specified name
+
+```uname``` - states details of operating system
+
+```nano``` - opens the specified file in the nano text editor
 
 ```cp``` - copy
 
