@@ -39,3 +39,43 @@ Once in Git Bash, use the command ```cd .sh``` to go the ssh directory
 Now you can follow the instructions below which are found in the SSH client tab of aws
 
 <img width="602" alt="image" src="https://user-images.githubusercontent.com/129381619/231824377-2fc44cee-a29e-4979-be7d-4b53798c894a.png">
+
+# AMI
+- Amazon Machine Image (AMI) is a template for creating virtual servers. It can be used to create servers such as the Amazon Elastic Compute Cloud or EC2. 
+
+The main difference between AMI and EC2 is that the EC2 is used for creating the virtual server instance whereas the AMI is the EC2 virtual machines image.
+
+Below is a diagram to explain how AMI's work.
+
+![image](https://user-images.githubusercontent.com/129381619/232041342-6d2d152d-ba55-403d-bfca-bd9ece6ecf23.png)
+
+
+In order to create an AMI, follow the steps below:
+
+1: Go to the AAWS console and search 'EC2'
+
+2: Select the instances and click on yours
+
+3: Click on 'Actions' and then 'Imagine and Templates' and then 'Create Image'
+
+4: You will now need to create a name for the AMI, make sure it's easily identifiable to you
+
+5: You can also add a discription - this will be helpful to you or anyone who you migh choose to share it with
+
+6: You also have the option to 'Add Tag'
+
+7: Now click on create an image
+
+You can find your AMI's by clicking on the left hand dashboard and scrolling down to AMI's like below
+
+<img width="272" alt="image" src="https://user-images.githubusercontent.com/129381619/232040479-25075c37-4007-4d73-ac84-d1592d3e666d.png">
+
+Now to launch an instance from your AMI
+- Make sure to delete any instances you had already
+- Go on your AMI tab
+- Click on launch instance from ami
+- Complete the steps that are required to launch an instance but using AMI
+
+
+
+
