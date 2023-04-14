@@ -1,7 +1,9 @@
-# AWS
+# LINUX COMMANDS
 ```cd``` - changes directory
 
-```ls``` - lists the content of the current directory
+```ls``` - provides a list of the files and folders in the current directory
+
+```ls -a``` - same as ```ls``` but also shows all hiden files/folders
 
 ```ls -l``` - lisrs the contents of current directory in a long format
 
@@ -9,9 +11,9 @@
 
 ```touch``` - creates new folder
 
-```nano``` - opens folder
+```nano 'name'``` - opens 'name'file with ```nano``` editor
 
-```cat``` - opens context of folder
+```cat 'name' ``` - shows content of 'name' folder
 
 ```mkdir``` - creates new directory
 
@@ -29,11 +31,13 @@
 
 ```cd ..``` - go back one step
 
+```ll``` - lists the details of all the files inside the folder
+
 ```mv``` - used to move or rename files
 
-```chmod``` - changes permission of the file
+```chmod 700 'filename'``` - changes permission of the file
 
-```top`` - shows all the running processes
+```top`` - shows all the running processes(opens task manager)
 
 ```head -1 filename``` - this would show only the first lines of a files
 
@@ -44,4 +48,26 @@
 ```cat filename | grep word``` - finds a particular word in file
 
 ```ps aux | grep bash``` - finds running processes that are using bash
+
+```sudo su``` - goes into admin mode
+
+```sudo touh 'filename'``` - creates a script file
+
+```sudo nano 'filename'``` - opens file with nano
+
+```sudo systemctl stop/start nginx``` - used to stop/start process
+
+```sudo apt install``` - installs nginx
+
+```sudo apt update/upgrade nginx``` - updates/upgrades services
+
+```service nginx status``` - checks the status of nginx service
+
+```sudo chmod +x filename``` - makes file executable
+
+```sudo ./filename``` - executes file
+
+
+
+
 
